@@ -27,12 +27,45 @@ font-size: 72px;
     position: absolute;
 top: 50%;
 width: 100%;
+font-family: 'Poppins';
+font-size: 18px;
 
 }
 .banner-search{
     position: absolute;
 top: 60%;
 width: 100%;
+}
+.section-title{
+    font-family: 'EB Garamond';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+color: #414040;
+}
+.section-text{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color: #414040;
+}
+.card-legal-title{
+    font-family: 'EB Garamond';
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+color: #414040;
+}
+.card-legal-text{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color: #414040;
+}
+.card{
+    border: 0;!important
 }
 
 

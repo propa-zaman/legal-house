@@ -1,0 +1,12 @@
+.nav-gap{
+    margin-left: 60px;
+}
+
+.btn-bg{
+    background-color: #B68C5A;
+    border: 0;
+}
+.btn-bg:hover{
+    background-color: #826d54;
+
+}

@@ -1,89 +1,102 @@
-.nav-gap{
+.nav-gap {
     margin-left: 60px;
 }
 
-.btn-bg{
+.btn-bg {
     background-color: #B68C5A;
     border: 0;
     color: white;
 }
-.btn-bg:hover{
+
+.btn-bg:hover {
     background-color: #826d54;
 
 }
-.banner{
+
+.banner {
     position: relative;
-   
+
 
 }
-.banner-title{
-position: absolute;
-top: 20%;
-width: 100%;
-font-weight: 800;
-font-family: 'EB Garamond';
-font-size: 72px;
-} 
-.banner-text{
+
+.banner-title {
     position: absolute;
-top: 50%;
-width: 100%;
-font-family: 'Poppins';
-font-size: 18px;
+    top: 20%;
+    width: 100%;
+    font-weight: 800;
+    font-family: 'EB Garamond';
+    font-size: 72px;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    font-family: 'Poppins';
+    font-size: 18px;
 
 }
-.banner-search{
+
+.banner-search {
     position: absolute;
-top: 60%;
-width: 100%;
+    top: 60%;
+    width: 100%;
 }
-.section-title{
+
+.section-title {
     font-family: 'EB Garamond';
-font-style: normal;
-font-weight: 800;
-font-size: 40px;
-color: #414040;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    color: #414040;
 }
-.section-text{
+
+.section-text {
     font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-color: #414040;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #414040;
 }
-.card-legal-title{
+
+.card-legal-title {
     font-family: 'EB Garamond';
-font-style: normal;
-font-weight: 800;
-font-size: 32px;
-color: #414040;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    color: #414040;
 }
-.card-legal-text{
+
+.card-legal-text {
     font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-color: #414040;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #414040;
 }
-.card{
+
+.card {
     border: 0;
 }
-.carousel-item-overly{
+
+.carousel-item-overly {
     background: rgba(93, 93, 93, 0.8);
 }
-.accordion-item{
+
+.accordion-item {
     background-color: #F3F3F3;
 }
-.accordion-header{
+
+.accordion-header {
     background-color: #F3F3F3;
 
 }
-.footer-bg{
-    background-color: #111111
-    ;
+
+.footer-bg {
+    background-color: #111111;
 }
 
-footer ul{
+footer ul {
     list-style: none;
 }
 
@@ -92,19 +105,21 @@ footer ul{
 
 
 /* Responsive */
-@media screen and (max-width:576px){
-    .banner-title{
+@media screen and (max-width:576px) {
+    .banner-title {
         top: 10%;
         font-size: 24px;
     }
-    .banner-text{
+
+    .banner-text {
         top: 40%;
         font-size: 11px;
     }
-    .banner-search{
+
+    .banner-search {
         width: 70%;
         height: 30%;
 
     }
-    
+
 }
